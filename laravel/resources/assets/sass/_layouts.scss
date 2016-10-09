@@ -1,3 +1,7 @@
+body{
+	font-family: $main-font-family;
+}
+
 header, main, footer {
 	padding-left: $side-nav-width;
 	@media only screen and (max-width: 992px) {
@@ -9,7 +13,29 @@ header, main, footer {
 	width: $side-nav-width;
 }
 
-.side-nav li>a>i.material-icons {
-	float: left;
-	margin: 0 32px 0 0;
+.side-nav {
+	li{
+		&>a{
+			&>i.material-icons{
+				float: left;
+				width: 2em;
+			}
+		}
+	}
+}
+
+// Replicate input field class css to suppress form label effect.
+.input-field-active-label {
+	position: relative;
+	margin-top: 1rem;
+}
+
+.font-bold{
+	font-weight: 600;
+}
+.font-medium{
+	font-weight: 400;
+}
+.font-light{
+	font-weight: 300;
 }
