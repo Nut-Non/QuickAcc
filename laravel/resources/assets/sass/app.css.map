@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "app.css",
+  "sources": [
+    "app.scss",
+    "_variables.scss",
+    "_layouts.scss"
+  ],
+  "sourcesContent": [],
+  "mappings": "AAGA,OAAO,CAAC,gEAAI;AAEZ,OAAO,CAAC,2EAAI;AAEZ,OAAO,CAAC,4DAAI;;AEPE,MAAM,EAAE,IAAI,EAAE,MAAM,CAAb;EACpB,YAAY,EDuCI,KAAK,GCxCA;EAErB,MAAM,MAAD,MAAM,MAAM,SAAS,EAAE,KAAK;;IAFpB,MAAM,EAAE,IAAI,EAAE,MAAM,CAAb;MAGnB,YAAY,EAAE,CAAE,GAHI;;;AAOtB,SAAS,CAAC;EACT,KAAK,EDgCW,KAAK,GCjCX",
+  "names": []
+}
