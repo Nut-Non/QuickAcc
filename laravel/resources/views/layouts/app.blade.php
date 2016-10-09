@@ -67,15 +67,19 @@
 						<li><a href="{{ url('/register') }}">Register</a></li>
 					@else
 						<!-- Dropdown Trigger -->
-						<a class='dropdown-button btn' href='#' data-activates='dropdown1'>
-							{{ Auth::user()->name }}</a>
+						<li><a class='dropdown-button' href='#' data-activates='dropdown1'>
+							{{ Auth::user()->name }}</a></li>
+						
 
 						<!-- Dropdown Structure -->
 						<ul id='dropdown1' class='dropdown-content'>
 							<li>
-								<a href="{{ url('/logout') }}" 
+								<a class="waves-effect" href="{{ url('/logout') }}" 
 								onclick="event.preventDefault();document.getElementById('logout-form').submit();">
 									Logout</a></li>
+              
+							<form id="logout-form" action="{{ url('/logout') }}" method="POST">
+                {{ csrf_field() }}</form>
 						</ul>
 					@endif
 				</ul>
