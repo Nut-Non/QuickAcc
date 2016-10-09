@@ -13,4 +13,9 @@ header, main, footer {
 #side-nav {
   width: 300px; }
 
+/* line 12, E:/xampp/htdocs/practices/laravel/QuickAcc/laravel/resources/assets/sass/_layouts.scss */
+.side-nav li > a > i.material-icons {
+  float: left;
+  margin: 0 32px 0 0; }
+
 /*# sourceMappingURL=app.css.map */

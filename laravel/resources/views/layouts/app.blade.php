@@ -33,20 +33,15 @@
 				<!-- Side nav -->
 				<ul id="side-nav" class="side-nav fixed">
 					<li>
-						<div class="userView">
-							<a href="#">Side nav</a>
-							<a href="#">John Doe</span></a>
-							<a href="#">jdandturk@gmail.com</span></a>
-						</div>
-					</li>
-
-					<li><a href="#"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+						<a href="#">
+							<i class="material-icons">cloud</i>
+							First Link With Icon</a></li>
 					<li><a href="#">Second Link</a></li>
 					<li>
 						<div class="divider"></div>
 					</li>
 					<li><a class="subheader">Subheader</a></li>
-					<li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+					<li><a class="waves-effect" href="#">Third Link With Waves</a></li>
 				</ul>
 				<!-- / Side nav -->
 
