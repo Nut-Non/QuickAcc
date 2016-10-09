@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ed9df8b872992035f068a7fe461a635a",
-    "content-hash": "76036da3b5b55b91dbe1e1affa01bf9e",
+    "hash": "04a64b0dacac82143f9976168522b913",
+    "content-hash": "34d79ae9773bc3d50418224896cbe182",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -983,6 +983,50 @@
                 "uuid"
             ],
             "time": "2016-10-02 15:51:17"
+        },
+        {
+            "name": "skydiver/laravel-materialize-css",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/skydiver/laravel-materialize-css.git",
+                "reference": "6482c847febf99553301191546272456eb0db8ed"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/skydiver/laravel-materialize-css/zipball/6482c847febf99553301191546272456eb0db8ed",
+                "reference": "6482c847febf99553301191546272456eb0db8ed",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "5.*",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Skydiver\\LaravelMaterializeCSS\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Martin",
+                    "email": "labs@flydev.com"
+                }
+            ],
+            "description": "Add Materialize CSS Framework to Laravel",
+            "keywords": [
+                "css",
+                "css framework",
+                "laravel",
+                "material design",
+                "materialize"
+            ],
+            "time": "2016-07-15 19:43:15"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -2659,16 +2703,16 @@
         },
         {
             "name": "phpunit/phpunit-mock-objects",
-            "version": "3.3.1",
+            "version": "3.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit-mock-objects.git",
-                "reference": "03500345483e1e17b52e2e4d34a89c9408ab2902"
+                "reference": "238d7a2723bce689c79eeac9c7d5e1d623bb9dc2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/03500345483e1e17b52e2e4d34a89c9408ab2902",
-                "reference": "03500345483e1e17b52e2e4d34a89c9408ab2902",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/238d7a2723bce689c79eeac9c7d5e1d623bb9dc2",
+                "reference": "238d7a2723bce689c79eeac9c7d5e1d623bb9dc2",
                 "shasum": ""
             },
             "require": {
@@ -2714,7 +2758,7 @@
                 "mock",
                 "xunit"
             ],
-            "time": "2016-10-04 11:03:26"
+            "time": "2016-10-09 07:01:45"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
@@ -3440,7 +3484,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "skydiver/laravel-materialize-css": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
