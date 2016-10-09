@@ -14,7 +14,7 @@
 	{!! MaterializeCSS::include_full() !!}
 	
 	<!-- App CSS -->
-	<link rel="stylesheet" href="css/app.css">
+	<link rel="stylesheet" href="/css/app.css">
 
 	<!-- Scripts -->
 	<script>
