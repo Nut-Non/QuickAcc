@@ -15,27 +15,28 @@ header, main, footer {
 
 /* line 12, E:/xampp/htdocs/practices/laravel/QuickAcc/laravel/resources/assets/sass/_layouts.scss */
 #side-nav {
-  width: 300px; }
+  width: 95%;
+  max-width: 300px; }
 
-/* line 19, E:/xampp/htdocs/practices/laravel/QuickAcc/laravel/resources/assets/sass/_layouts.scss */
+/* line 20, E:/xampp/htdocs/practices/laravel/QuickAcc/laravel/resources/assets/sass/_layouts.scss */
 .side-nav li > a > i.material-icons {
   float: left;
   width: 2em; }
 
-/* line 28, E:/xampp/htdocs/practices/laravel/QuickAcc/laravel/resources/assets/sass/_layouts.scss */
+/* line 29, E:/xampp/htdocs/practices/laravel/QuickAcc/laravel/resources/assets/sass/_layouts.scss */
 .input-field-active-label {
   position: relative;
   margin-top: 1rem; }
 
-/* line 33, E:/xampp/htdocs/practices/laravel/QuickAcc/laravel/resources/assets/sass/_layouts.scss */
+/* line 34, E:/xampp/htdocs/practices/laravel/QuickAcc/laravel/resources/assets/sass/_layouts.scss */
 .font-bold {
   font-weight: 600; }
 
-/* line 36, E:/xampp/htdocs/practices/laravel/QuickAcc/laravel/resources/assets/sass/_layouts.scss */
+/* line 37, E:/xampp/htdocs/practices/laravel/QuickAcc/laravel/resources/assets/sass/_layouts.scss */
 .font-medium {
   font-weight: 400; }
 
-/* line 39, E:/xampp/htdocs/practices/laravel/QuickAcc/laravel/resources/assets/sass/_layouts.scss */
+/* line 40, E:/xampp/htdocs/practices/laravel/QuickAcc/laravel/resources/assets/sass/_layouts.scss */
 .font-light {
   font-weight: 300; }
 

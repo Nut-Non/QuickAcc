@@ -10,7 +10,8 @@ header, main, footer {
 }
 
 #side-nav {
-	width: $side-nav-width;
+	width: 95%;
+	max-width: $side-nav-width;
 }
 
 .side-nav {
