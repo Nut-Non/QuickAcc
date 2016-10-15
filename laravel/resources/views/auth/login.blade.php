@@ -41,5 +41,6 @@
 			</a>			
 		</div>
 	</form>
-</div>
+	
+</div><!--/ .container -->
 @endsection
