@@ -10,11 +10,15 @@
 
 	<title>{{ config('app.name', 'Laravel') }}</title>
 	
-	<!-- MaterializeCSS -->
-	{!! MaterializeCSS::include_full() !!}
+	<!-- jQuery -->
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	
+	<!-- MaterializeCSS -->
+	<script src="{{ URL::asset('materialize-css/js/materialize.min.js') }}"></script>
+	<link rel="stylesheet" href="{{ URL::asset('materialize-css/css/materialize.min.css') }}">
+
 	<!-- App CSS -->
-	<link rel="stylesheet" href="/css/app.css">
+	<link rel="stylesheet" href="{{ URL::asset('css/app.css') }}">
 
 	<!-- Scripts -->
 	<script>
