@@ -39,15 +39,20 @@
 			<!-- Side nav -->
 			<ul id="side-nav" class="side-nav fixed">
 				<li>
-					<a href="#">
-						<i class="material-icons">cloud</i>
-						First Link With Icon</a></li>
-				<li><a href="#">Second Link</a></li>
+					<a href="#" class="waves-effect">
+						Dashboard</a></li>
+				<li>
+					<a href="#" class="waves-effect">
+						Income</a></li>
+				<li>
+					<a href="#" class="waves-effect">
+						Expense</a></li>
 				<li>
 					<div class="divider"></div>
 				</li>
-				<li><a class="subheader">Subheader</a></li>
-				<li><a class="waves-effect" href="#">Third Link With Waves</a></li>
+				<li>
+					<a href="#" class="waves-effect">
+						Settings</a></li>
 			</ul>
 			<!-- / Side nav -->
 
@@ -70,7 +75,6 @@
 					<!-- Dropdown Trigger -->
 					<li><a class='dropdown-button' href='#' data-activates='dropdown1'>
 						{{ Auth::user()->name }}</a></li>
-
 
 					<!-- Dropdown Structure -->
 					<ul id='dropdown1' class='dropdown-content'>
