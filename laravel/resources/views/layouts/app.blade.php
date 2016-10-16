@@ -13,6 +13,9 @@
 	<!-- jQuery -->
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	
+	<!-- ionicons -->
+	<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+	
 	<!-- MaterializeCSS -->
 	<script src="{{ URL::asset('materialize-css/js/materialize.min.js') }}"></script>
 	<link rel="stylesheet" href="{{ URL::asset('materialize-css/css/materialize.min.css') }}">
